@@ -1,4 +1,4 @@
-#GDB (using the Fraction example) 
+# GDB (using the Fraction example) 
 
 - A decent resource: tutorialspoint gdb 
 - A better resource:  
@@ -79,7 +79,7 @@
 - Continue running: **(gdb) c** 
 - Notice how the program stops immediately after line 15 because it detected that **ptr** was set to nullptr. 
 
-#Valgrind 
+# Valgrind 
 
 - A good resource:[ http://valgrind.org/docs/manual/quick-start.html](http://valgrind.org/docs/manual/quick-start.html) 
 - See also: <http://es.gnu.org/~aleksander/valgrind/valgrind-memcheck.pdf> 
