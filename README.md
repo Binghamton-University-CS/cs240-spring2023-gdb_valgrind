@@ -1,4 +1,4 @@
-#GDB (using the Fraction example) 
+# GDB (using the Fraction example) 
 
 - A decent resource: tutorialspoint gdb 
 - A better resource:  
@@ -32,7 +32,7 @@
   - The program will run as if it was invoked as ./*progName* <arg0> <arg1> … 
 - Note that the program stopped running at line 9. We can inspect our Fraction object f3 by 
   - **(gdb) print f3**  **OR**  (gdb) p f3 
-- Let’s go inside the copy constructor 
+- Let’s go inside the object
   - **(gdb) step**  **OR**  (gdb) s 
 - If you lose track of where you are in your code, you can use list to show the surrounding code 
   - **(gdb) list**  **OR**  (gdb) l 
@@ -79,7 +79,7 @@
 - Continue running: **(gdb) c** 
 - Notice how the program stops immediately after line 15 because it detected that **ptr** was set to nullptr. 
 
-#Valgrind 
+# Valgrind 
 
 - A good resource:[ http://valgrind.org/docs/manual/quick-start.html](http://valgrind.org/docs/manual/quick-start.html) 
 - See also: <http://es.gnu.org/~aleksander/valgrind/valgrind-memcheck.pdf> 

@@ -1,4 +1,4 @@
-FLAGS = -Wall -Wextra
+FLAGS = -g -Wall -std=c++11
 
 all: use_fractions
 
